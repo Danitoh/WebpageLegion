@@ -27,6 +27,9 @@ class Trinity_rbac_cata_soap implements Emulator
 	 * Array of expansion ids and their corresponding names
 	 */
 	protected $expansions = array(
+		6 => "Legion",
+		5 => "Wod",
+		4 => "Mop",
 		3 => "Cataclysm",
 		2 => "WotLK",
 		1 => "TBC",
