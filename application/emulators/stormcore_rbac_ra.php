@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__).'/trinity_rbac_soap.php');
+require_once(dirname(__FILE__).'/stormcore_rbac_soap.php');
 
 /**
  * Abstraction layer for supporting different emulators
