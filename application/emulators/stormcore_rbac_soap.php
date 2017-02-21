@@ -4,7 +4,7 @@
  * Abstraction layer for supporting different emulators
  */
 
-class Trinity_rbac_soap implements Emulator
+class stormcore_rbac_soap implements Emulator
 {
 	protected $config;
 	
