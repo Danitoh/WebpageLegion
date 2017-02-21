@@ -25,5 +25,7 @@ $emulators = array(
 	"mangosr2_ra" => "MaNGoS R2 (3.3.5) - connected through RA",
 	"mangosr2_soap" => "MaNGoS R2 (3.3.5) - connected through SOAP",
 	"arcemu" => "ArcEmu (3.3.5)",
-	"summitemu" => "SummitEmu (2.4.3)"
+	"summitemu" => "SummitEmu (2.4.3)",
+	"stormcore_rbac_ra" => "StormCore (7.1.5) with RBAC - connected through RA",
+	"stormcore_rbac_soap" => "StormCore (7.1.5) with RBAC - connected through SOAP"
 );
