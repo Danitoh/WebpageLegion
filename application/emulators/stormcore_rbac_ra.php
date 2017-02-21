@@ -6,7 +6,7 @@ require_once(dirname(__FILE__).'/stormcore_rbac_soap.php');
  * Abstraction layer for supporting different emulators
  */
 
-class Trinity_rbac_ra extends Trinity_rbac_soap implements Emulator
+class stormcore_rbac_ra extends stormcore_rbac_soap implements Emulator
 {	
 	/**
 	 * The telnet socket
