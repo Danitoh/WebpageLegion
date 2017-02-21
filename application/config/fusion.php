@@ -93,7 +93,7 @@ $config['has_smtp'] = 1;
 | WoTLK and Cataclysm.
 |
 */
-$config['disabled_expansions'] = array(3);
+$config['disabled_expansions'] = array();
 
 /*
 |--------------------------------------------------------------------------

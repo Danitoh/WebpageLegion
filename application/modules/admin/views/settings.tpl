@@ -140,8 +140,8 @@
 
 			<label for="disabled_expansions">Max expansion</label>
 			<select id="disabled_expansions">
-				<option value="legion" {if count($config.disabled_expansions) == 0}selected{/if}>Cataclysm</option>
-				<option value="wod" {if count($config.disabled_expansions) == 1}selected{/if}>Cataclysm</option>
+				<option value="legion" {if count($config.disabled_expansions) == 0}selected{/if}>Legion</option>
+				<option value="wod" {if count($config.disabled_expansions) == 1}selected{/if}>Warlords of Draenor</option>
 				<option value="cata" {if count($config.disabled_expansions) == 2}selected{/if}>Cataclysm</option>
 				<option value="wotlk" {if count($config.disabled_expansions) == 3}selected{/if}>Wrath of the Lich King</option>
 				<option value="tbc" {if count($config.disabled_expansions) == 4}selected{/if}>The Burning Crusade</option>
