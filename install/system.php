@@ -138,26 +138,17 @@ class Install
 		{
 			switch($_POST['expansion'])
 			{
-				
-				
-				case "wod":
-					$config->set('disabled_expansions', array(128));
-				break;
-				
-				case "cataclysm":
-					$config->set('disabled_expansions', array(64,128));
-				break;
-				
+
 				case "wotlk":
-					$config->set('disabled_expansions', array(32,64,128));
+					$config->set('disabled_expansions', array(32));
 				break;
 
 				case "tbc":
-					$config->set('disabled_expansions', array(24,32,64,128));
+					$config->set('disabled_expansions', array(24,32));
 				break;
 
 				case "vanilla":
-					$config->set('disabled_expansions', array(8,24,32,64,128));
+					$config->set('disabled_expansions', array(8,24,32));
 				break;
 			}
 		}
