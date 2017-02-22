@@ -139,7 +139,9 @@ class Dashboard_model extends CI_Model
 	{
 		if($type == "today")
 		{
-			$date = date("Y-m-d");
+/*			$date = date("Y-m-d");/*
+/* Date format modified .. work only with PHP >=5.2 */
+			$date = date("Y-m-d H:i:s");
 		}
 		else
 		{
