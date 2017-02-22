@@ -121,7 +121,9 @@ class External_account_model extends CI_Model
 			column("account", "email") => $email,
 			column("account", "expansion") => $expansion,
 			column("account", "last_ip") => $this->input->ip_address(),
-			column("account", "joindate") => date("Y-m-d")
+/*			column("account", "joindate") => date("Y-m-d")   */
+			column("account", "joindate") => date("Y-m-d H:i:s") /*Fix for Legion StormCore emulator */
+
 		);
 
 		// Fix for ArcEmu
