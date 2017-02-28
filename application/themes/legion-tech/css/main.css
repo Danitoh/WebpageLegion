@@ -274,12 +274,14 @@ a img {
 	margin-top:15px;
 }
 
+/* color font message posts*/
 #right article .news_bottom a {
-	color:#a07332;
+	color:#B9DE00;
 }
 
+/* color font message posts hover*/
 #right article .news_bottom a:hover {
-	color:#fff;
+	color:#F0FC05;
 }
 
 #right article .comments_button {
