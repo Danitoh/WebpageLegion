@@ -945,17 +945,18 @@ footer .divider2 {
     margin: 14px 0px;
 }
 
+/* background color box title*/
 .how_to_box .title {
     cursor: pointer;
     font-size: 16px;
-    background: #4489b2;
+    background: #44B25A;
     padding: 5px 7px;
     color: white;
     text-shadow: 2px 1px 0px rgba(0,0,0,0.4);
 }
-
+/*background color box title hover  */
 .how_to_box .title:hover {
-    background: #599ec5;
+    background: #1E7312;
 }
 
 .how_to_box .content {
@@ -970,9 +971,10 @@ footer .divider2 {
 	margin-bottom: 20px;
 }
 
+/* background color realm header*/
 #realm_field .realmHeader {
 	font-size: 14px;
-	background: #4489b2;
+	background: #44B25A;
 	color: white;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
 	margin-left: 10px !important;
@@ -986,8 +988,9 @@ footer .divider2 {
 	cursor: pointer;
 }
 
+/* background color realm header hover  */
 #realm_field .realmHeader:hover {
-    background: #599ec5 !important;
+    background: #1E7312 !important;
 }
 
 #realm_field .realmHeader .realmExtend,
