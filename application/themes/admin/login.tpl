@@ -95,16 +95,16 @@
 				<aside id="logo"><a href="#" class="logo"></a></aside>
 				<div class="divider"></div>
 				<aside id="links">
-					<a href="http://fusion-hub.com/" target="_blank">FusionHub</a>
-					<a href="http://fusion-hub.com/modules" target="_blank">Modules</a>
-					<a href="http://fusion-hub.com/themes" target="_blank">Themes</a>
-					<a href="http://fusion-hub.com/support" target="_blank">Support</a>
+					<a href="http://#" target="_blank">Neith-Legion</a>
+					<a href="http://#" target="_blank">Modules</a>
+					<a href="http://#" target="_blank">Themes</a>
+					<a href="http://#" target="_blank">Support</a>
 				</aside>
 				<div class="divider"></div>
 				<aside id="twitter">
-					<h1>Follow us on Twitter!</h1>
+					<h1>Feel free to use</h1>
 					<div id="twitter_icon"></div>
-					<a href="http://twitter.com/FusionHub" target="_blank">@FusionHub</a>
+					<a href="http://#" target="_blank">*Neith-Legion free CMS*</a>
 				</aside>
 				<div class="divider"></div>
 				<aside id="html5">
