@@ -343,7 +343,7 @@ textarea:focus {
 
 /* =========== CMS: realm status =========== */
 #left .realm {
-	color:#a07332;
+	color:#B4FF85;
 	font-size:14px;
 }
 
@@ -388,7 +388,7 @@ textarea:focus {
 	background-color:#000000;
 	padding:5px;
 	text-align:center;
-	color:#a07332;
+	color:#B4FF85;
 	font-size:12px;
 }
 
@@ -407,7 +407,7 @@ textarea:focus {
 
 .online_realm_button:hover {
 	background-position:0px 37px;
-	color:#A07332;
+	color:#B4FF85;
 }
 
 .online_realm_button:active {
@@ -425,12 +425,12 @@ textarea:focus {
 /* Table style, used on vote panel, donate panel, online players etc. */
 .nice_table tr:first-child td {
 	border-bottom:1px solid #0e171e;
-	color:#A07332;
+	color:#B4FF85;
 	font-weight:normal;
 }
 
 .nice_table tr:first-child td a {
-	color:#A07332;
+	color:#B4FF85;
 }
 
 .nice_table td {
@@ -478,7 +478,7 @@ textarea:focus {
 }
 
 #left #the_shouts .shout_author a {
-	color:#a07332;
+	color:#B4FF85;
 }
 
 #left #the_shouts .shout_staff a {
