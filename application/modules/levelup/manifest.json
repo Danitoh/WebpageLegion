@@ -1,18 +1,18 @@
 {
 	"name": "Levelup Character",
-	"description": "لول آپ  هیرو",
+	"description": "Level Up Hero",
 	"author": {
 		"name": "Shayan",
 		"website": "http://www.yekta-core.ir"
 	},
 	
 	"permissions": {
-		"view": {"default" : true, "description": "نمایش صفحه لول آپ هیرو" }
+		"view": {"default" : true, "description": "Show Level Up Hero" }
 	},
 
 	"roles": {
 		"view": {
-			"description": "نمایش ماژول لول آپ",
+			"description": "View Levelup module",
 			
 			"permissions": {
 				"view": true
