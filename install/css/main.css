@@ -202,18 +202,18 @@ header nav a:active {
 
 header nav .active, #main .right .side_left .box li .button:hover, #main .right .side_right .box .button:hover, input[type="submit"]:hover, .nice_button:hover {
 	border:1px solid #3a8fc0;
-	background-color:#1d6d9c;
-	background-image: linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
-	background-image: -o-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
-	background-image: -moz-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
-	background-image: -webkit-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
-	background-image: -ms-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-color:#247011;
+	background-image: linear-gradient(bottom, #247011 0%, #9BDB69 100%);
+	background-image: -o-linear-gradient(bottom, #247011 0%, #9BDB69 100%);
+	background-image: -moz-linear-gradient(bottom, #247011 0%, #9BDB69 100%);
+	background-image: -webkit-linear-gradient(bottom, #247011 0%, #9BDB69 100%);
+	background-image: -ms-linear-gradient(bottom, #247011 0%, #9BDB69 100%);
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
 		left top,
-		color-stop(0, #1D6D9C),
-		color-stop(1, #3D92C4)
+		color-stop(0, #247011),
+		color-stop(1, #9BDB69)
 	);
 	cursor: pointer;
 }
@@ -636,7 +636,7 @@ header nav .active:hover {
 }
 
 #main .right .side_left .box li a, #main .right .side_right .box a  {
-	color:#1D6D9C;
+	color:#247011;
 	text-decoration:none;
 }
 
@@ -945,17 +945,18 @@ footer .divider2 {
     margin: 14px 0px;
 }
 
+/* background color box title*/
 .how_to_box .title {
     cursor: pointer;
     font-size: 16px;
-    background: #4489b2;
+    background: #44B25A;
     padding: 5px 7px;
     color: white;
     text-shadow: 2px 1px 0px rgba(0,0,0,0.4);
 }
-
+/*background color box title hover  */
 .how_to_box .title:hover {
-    background: #599ec5;
+    background: #1E7312;
 }
 
 .how_to_box .content {
@@ -970,9 +971,10 @@ footer .divider2 {
 	margin-bottom: 20px;
 }
 
+/* background color realm header*/
 #realm_field .realmHeader {
 	font-size: 14px;
-	background: #4489b2;
+	background: #44B25A;
 	color: white;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
 	margin-left: 10px !important;
@@ -986,8 +988,9 @@ footer .divider2 {
 	cursor: pointer;
 }
 
+/* background color realm header hover  */
 #realm_field .realmHeader:hover {
-    background: #599ec5 !important;
+    background: #1E7312 !important;
 }
 
 #realm_field .realmHeader .realmExtend,
@@ -1248,7 +1251,7 @@ margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
 
 #main .right .box li a, #main .right .side_right .box a  {
-	color:#1D6D9C;
+	color:#247011;
 	text-decoration:none;
 }
 
