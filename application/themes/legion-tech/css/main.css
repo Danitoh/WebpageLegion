@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-	color:#A07332;
+	color:#A2FA6B
 }
 
 a img {
@@ -140,7 +140,7 @@ a img {
 }
 
 #top_menu li a:hover {
-	color:#ffddad;
+	color:#F6FF00;
 	background-color:rgba(20,26,30,0.3);
 }
 
@@ -364,7 +364,7 @@ footer #logo:hover {
 
 .nice_button:hover, .nice_active, input[type="submit"]:hover {
 	background-position:0px 37px;
-	color:#A07332;
+	color:#A2FA6B;
 }
 
 .nice_button:active, input[type="submit"]:active {

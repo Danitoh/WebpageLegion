@@ -30,7 +30,7 @@ CREATE TABLE `articles` (
 -- ----------------------------
 -- Records of articles
 -- ----------------------------
-INSERT INTO `articles` VALUES ('1', 'Welcome to your new FusionCMS powered website!', 'Your website has been successfully installed and we, the FusionCMS team, sincerely hope that you will have a nice time using it.<div><br></div><div>To proceed, log into the administrator panel using an administrator account and the security code you specified during the installation.</div><div><br></div><div>If you run into problems, please contact us via the <a href=\"http://fusion-hub.com\" target=\"_blank\">FusionHub</a>.</div><div><br></div><div>Best regards,</div><div>the FusionCMS team</div>', '1344607279', '1', '', '-1');
+INSERT INTO `articles` VALUES ('1', 'Welcome to your Neith-Legion CMS - powered website!', 'Your website has been successfully installed and i sincerely hope that you will have a nice time using it.<div><br></div><div>To proceed, log into the administrator panel using an administrator account and the security code you specified during the installation.</div><div><br></div><div>If you run into problems, please contact us via the <a href=\"http://#\" target=\"_blank\">Neith-Legion</a>.</div><div><br></div><div>Best regards,</div><div>the Neith-Legion team</div>', '1344607279', '1', '', '-1');
 
 -- ----------------------------
 -- Table structure for `changelog`
@@ -146,7 +146,7 @@ CREATE TABLE `item_display` (
 DROP TABLE IF EXISTS `menu`;
 CREATE TABLE `menu` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL DEFAULT 'FusionCMS Link',
+  `name` varchar(50) NOT NULL DEFAULT 'Neith-LegionCMS Link',
   `link` varchar(255) DEFAULT '#',
   `side` varchar(255) DEFAULT 'top',
   `rank` int(11) NOT NULL,
@@ -235,7 +235,7 @@ CREATE TABLE `pages` (
 -- ----------------------------
 -- Records of pages
 -- ----------------------------
-INSERT INTO `pages` VALUES ('1', 'connect', 'How to connect', '<b>1.</b> First of all, you must create an account.\nThe account is used to log into both the game and our website. <a href=\"http://81.231.122.182/projects/FusionCMS_V6/register\">Click here</a> to open the registration page. \n<br>\n<br>\n<b>2.</b> Install World of Warcraft. \nYou can download it (legally) from here: <a href=\"https://www.worldofwarcraft.com/account/download/clients/pc/InstallWoW.exe\" target=\"_blank\">Windows</a> or <a href=\"https://www.worldofwarcraft.com/account/download/clients/mac/InstallWoW.zip\" target=\"_blank\">Mac</a>.\nMake sure to upgrade to our current supported patch, which is 3.3.5 (build 12340).\nPatch mirrors can be found <a href=\"http://www.wowwiki.com/Patch_mirrors\" target=\"_blank\">here</a>.\n<br>\n<br>\n<b>3.</b> Open up the \"World of Warcraft\" directory. The default directory is \"C:\\Program Files\\World of Warcraft\". \nWhen you\'ve found it, open up the directory called \"data\", then go into the directory called either enUS or enGB, depending on your client language.\n<br>\n<br>\n<b>4.</b> Open up the file called \"realmlist.wtf\" with a text editor such as Notepad. To do this, you must right click on the file and choose properties, then select notepad as the default software for files with the \".wtf\" ending. You may also just start the text editor and drag the file into the edit window.\n<br>\n<br>\n<b>5.</b> Erase all text and change it to:\n\n<div style=\"padding:30px;display:block;font-weight:bold;\">set realmlist logon.myserver.com (edit from admin panel -&gt; pages)</div>\n\n<b>You may now start playing! If you need any help, do not hesitate to create a support ticket.</b>', '1');
+INSERT INTO `pages` VALUES ('1', 'connect', 'How to connect', '<b>1.</b> First of all, you must create an account.\nThe account is used to log into both the game and our website. <a href=\"http://81.231.122.182/projects/Neith-LegionCMS_V6/register\">Click here</a> to open the registration page. \n<br>\n<br>\n<b>2.</b> Install World of Warcraft. \nYou can download it (legally) from here: <a href=\"https://www.worldofwarcraft.com/account/download/clients/pc/InstallWoW.exe\" target=\"_blank\">Windows</a> or <a href=\"https://www.worldofwarcraft.com/account/download/clients/mac/InstallWoW.zip\" target=\"_blank\">Mac</a>.\nMake sure to upgrade to our current supported patch, which is 3.3.5 (build 12340).\nPatch mirrors can be found <a href=\"http://www.wowwiki.com/Patch_mirrors\" target=\"_blank\">here</a>.\n<br>\n<br>\n<b>3.</b> Open up the \"World of Warcraft\" directory. The default directory is \"C:\\Program Files\\World of Warcraft\". \nWhen you\'ve found it, open up the directory called \"data\", then go into the directory called either enUS or enGB, depending on your client language.\n<br>\n<br>\n<b>4.</b> Open up the file called \"realmlist.wtf\" with a text editor such as Notepad. To do this, you must right click on the file and choose properties, then select notepad as the default software for files with the \".wtf\" ending. You may also just start the text editor and drag the file into the edit window.\n<br>\n<br>\n<b>5.</b> Erase all text and change it to:\n\n<div style=\"padding:30px;display:block;font-weight:bold;\">set realmlist logon.myserver.com (edit from admin panel -&gt; pages)</div>\n\n<b>You may now start playing! If you need any help, do not hesitate to create a support ticket.</b>', '1');
 
 -- ----------------------------
 -- Table structure for `paygol_logs`
@@ -7080,7 +7080,7 @@ CREATE TABLE `vote_log` (
 DROP TABLE IF EXISTS `vote_sites`;
 CREATE TABLE `vote_sites` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `vote_sitename` varchar(50) DEFAULT 'FusionCMS',
+  `vote_sitename` varchar(50) DEFAULT 'Neith-LegionCMS',
   `vote_url` varchar(255) DEFAULT 'http://',
   `vote_image` varchar(255) DEFAULT NULL,
   `hour_interval` int(10) NOT NULL DEFAULT '12',
