@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{if $title}{$title}{/if}FusionCMS</title>
+		<title>{if $title}{$title}{/if}Neith-Legion</title>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 
@@ -180,8 +180,8 @@
 					</nav>
 
 					<article>
-						<h1>Welcome to FusionCMS</h1>
-						<b>Dear customer</b>, We are happy to introduce you to the next major version of our very own FusionCMS. Years have passed since the initial release and the system has grown better and stronger for every version. The core of this beast is powered by clean, object oriented PHP code, kept in shape by the incredibly powerful CodeIgniter framework. On the front we also make sure to amaze your visitors with more Javascript-powered live interactions than ever before.
+						<h1>Welcome to Neith-Legion</h1>
+						<b>Dear customer</b>, We are happy to introduce you to the next major version of our very own Neith-Legion. Years have passed since the initial release and the system has grown better and stronger for every version. The core of this beast is powered by clean, object oriented PHP code, kept in shape by the incredibly powerful CodeIgniter framework. On the front we also make sure to amaze your visitors with more Javascript-powered live interactions than ever before.
 						<div class="clear"></div>
 					</article>
 					<div class="spacer"></div>
@@ -203,16 +203,16 @@
 				<aside id="logo"><a href="#" class="logo"></a></aside>
 				<div class="divider"></div>
 				<aside id="links">
-					<a href="http://www.fusion-hub.com" target="_blank">FusionHub</a>
-					<a href="http://www.fusion-hub.com/modules" target="_blank">Modules</a>
-					<a href="http://www.fusion-hub.com/themes" target="_blank">Themes</a>
-					<a href="http://www.fusion-hub.com/support" target="_blank">Support</a>
+					<a href="http://#" target="_blank">FusionHub</a>
+					<a href="http://#" target="_blank">Modules</a>
+					<a href="http://#" target="_blank">Themes</a>
+					<a href="http://#" target="_blank">Support</a>
 				</aside>
 				<div class="divider"></div>
 				<aside id="facebook">
 					<h1>Like us on Facebook!</h1>
 					<div id="fb_icon"></div>
-					<a href="http://facebook.com/HeroicForge" target="_blank">HeroicForge</a>
+					<a href="http://facebook.com" target="_blank">Neith-Legion</a>
 				</aside>
 				<div class="divider"></div>
 				<aside id="html5">
