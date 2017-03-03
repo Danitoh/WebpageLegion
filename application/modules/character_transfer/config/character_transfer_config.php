@@ -1,4 +1,4 @@
-<?php
+&lt;?php
 
 /* 
 *  Character Transfer Price
@@ -23,40 +23,40 @@ $config['cta_characters_limit'] = 5;
 */
 $config['cta_language'] = array(
 
-'TITLE'		  => 'انتقال هیرو به اکانت دیگر',
-'DESCRIPTION'	  => 'با استفاده از این سرویس امکان هیرو به اکانت دیگر اماده شده است',
+'TITLE'    => 'Character transfer to another account',
+'DESCRIPTION'   => 'This service allows Characters to be transfered,
 
-'KEYWORDS'	  => 'character,transfer,charactertransfer,account',
-'REALM'		  => 'ریلم',
-'CHARACTER'	  => 'هیرو',
-'DEST_ACC'	  => 'اکانت مقصد',
-'PLS_SELECT'	  => 'انتخاب هیرو',
-'TRANSFER'	  => 'انتقال',
-'DP'		  => 'امتیاز ویژه',
-'VP'		  => 'VP',
-'COST_EXPL'	  => ' هژینه انتقال <strong>[PRICE] [CURRENCY]</strong> می باشد',
-'SELECT_CHAR'	  => 'لطفا نام هیرو را انتخاب نمائید',
-'ENTER_DEST_ACC'  => 'لطفا اکانت مقصد را انتخاب نمائید',
-'ERROR_REALM'	  => 'ریلم انتخاب شده معتبر نمی باشد',
-'ERROR_CHARACTER' => ' هیرو انتخاب شده معتبر نمی باشد',
-'ERROR_BELONGS'	  => 'شخصیت انتخاب شده به حساب شما تعلق ندارد.',
-'ERROR_ONLINE'	  => ' هیرو انتخاب شده در سرور  بازی آنلاین میباشد لفطا هیرو را از محیط بازی خروج نمائید و دوباره سعی نمائید',
+'KEYWORDS'   => 'character,transfer,charactertransfer,account',
+'REALM'    => 'Realm',
+'CHARACTER'   => 'Character',
+'DEST_ACC'   => 'Account destination',
+'PLS_SELECT'   => 'Select a Character',
+'TRANSFER'   => 'Transfer',
+'DP'    => 'SpecialPoints (DP)',
+'VP'    => 'VP',
+'COST_EXPL'   => 'Transfer cost is <strong>[PRICE] [CURRENCY]</strong>.',
+'SELECT_CHAR'   => 'Please select Character',
+'ENTER_DEST_ACC'  => 'Please select the account destination',
+'ERROR_REALM'   => 'Selected Realm is not valid',
+'ERROR_CHARACTER' => 'Selected Character is not valid',
+'ERROR_BELONGS'   => 'Your account does not belong to the selected character.',
+'ERROR_ONLINE'   => 'Character selected is online. Please log out from the game and try again',
 
-'ERROR_DEST_ACC'  => 'اکانت مقصد معتبر نمی باشد',
-'ERROR_DEST_ME'	  => ' اکانت مبدا نمی تواند با اکانت مقصد یکسان باشد',
+'ERROR_DEST_ACC'  => 'The destination account is not valid',
+'ERROR_DEST_ME'   => 'Made account can not be the same destination account',
 
-'ERROR_CHAR_LIMIT'=> ' حداکثر هیرو در اکانت مقصد  باید ([LIMIT]). باشد',
+'ERROR_CHAR_LIMIT'=> 'Maximum transfer Characters it was reached ([LIMIT])',
 
-'ERROR_PRICE_DP'  => 'موجودی امتیاز ویژه شما کافی  نمی باشد',
+'ERROR_PRICE_DP'  => 'Your have not enough DP in your inventory',
 'ERROR_PRICE_VP'  => 'You don\'t have enough Vote Points.',
 
-'ERROR_WEB_FAIL'  => 'وب سایت موفق به انتقال هیرو نمی باشد. لطفا دوباره تلاش کنید',
+'ERROR_WEB_FAIL'  => 'Character transfer has not succeeded. Please try again',
 
-'SUCCESS_MSG'	  => 'The character <strong>[CHARACTER]</strong> from realm <strong>[REALM_NAME]</strong> has been successfully transferred to account <strong>[ACCOUNT]</strong>.',
+'SUCCESS_MSG'   => 'The character <strong>[CHARACTER]</strong> from realm <strong>[REALM_NAME]</strong> has been successfully transferred to account <strong>[ACCOUNT]</strong>.',
 
-'LINK_GO_UCP'	  => 'برو به کنترل پنل ',
+'LINK_GO_UCP'   => 'Go to Control Panel',
 
-'BANNED_MSG'	=> 'اکانت شما مسدود می باشد'
+'BANNED_MSG' => 'Your account is blocked'
 );
 
 
