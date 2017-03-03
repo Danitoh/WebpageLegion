@@ -1,0 +1,49 @@
+{
+	"name": "Auction House Viewer",
+	"description": "View in-game auction",
+	"author": {
+		"name": "Yekta-CMS",
+		"website": "http://www.yekta-core.ir"
+	},
+	
+	"admin": [
+		{
+			"text": "Store",
+			"icon": "share",
+			"links": [
+				{
+					"text": "Market",
+					"icon": "list",
+					"controller": "admin",
+					"requirePermission": "viewAdmin"
+				}
+			]
+		}
+	],
+
+	"permissions": {
+		"view": {"default" : true, "description": "Show auction house" },
+		"viewAdmin": {"default" : false, "description": "View Admin Panel auction house" }
+	},
+
+	"roles": {
+		"view": {
+			"description": "Display auction house Module",
+
+			"permissions": {
+				"view": true
+			}
+		},
+
+		"administrate": {
+			"description": "View Admin Panel auction house",
+			"dangerLevel": 2,
+
+			"permissions": {
+				"viewAdmin": true
+			}
+		}
+	},
+	
+	"enabled": true
+}

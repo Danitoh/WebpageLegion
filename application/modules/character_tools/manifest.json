@@ -1,0 +1,24 @@
+{
+	"name": "Character Tools",
+	"description": "Full screen character tools",
+	"author": {
+		"name": "Yekta-CMS",
+		"website": "http://www.yekta-core.ir"
+	},
+	
+	"permissions": {
+		"view": {"default" : true, "description": "Full screen character tools" }
+	},
+
+	"roles": {
+		"view": {
+			"description": "Full screen character tools",
+			
+			"permissions": {
+				"view": true
+			}
+		}
+	},
+
+	"enabled": true
+}

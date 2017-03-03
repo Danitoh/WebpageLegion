@@ -1,0 +1,24 @@
+{
+	"name": "Unban Character",
+	"description": "Character Banned release",
+	"author": {
+		"name": "Shayan_077",
+		"website": "http://www.yekta-core.ir"
+	},
+	
+	"permissions": {
+		"view": {"default" : true, "description": "View Banned Character" }
+	},
+
+	"roles": {
+		"view": {
+			"description": "View Character Banned module",
+			
+			"permissions": {
+				"view": true
+			}
+		}
+	},
+
+	"enabled": true
+}

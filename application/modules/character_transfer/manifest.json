@@ -1,0 +1,49 @@
+{
+	"name": "Character Transfer (Account)",
+	"description": "Character transfer from one account to another user account",
+	"author": {
+		"name": "Yekta-CMS",
+		"website": "http://www.yekta-core.ir"
+	},
+	
+	"admin": [
+		{
+			"text": "Transfers",
+			"icon": "share",
+			"links": [
+				{
+					"text": "Character transfer to the another account reports",
+					"icon": "list",
+					"controller": "admin",
+					"requirePermission": "viewAdmin"
+				}
+			]
+		}
+	],
+
+	"permissions": {
+		"use_cta": {"default" : true, "description": "Allowing character transfers" },
+		"viewAdmin": {"default" : false, "description": "Find character transfer reports" }
+	},
+
+	"roles": {
+		"use": {
+			"description": "Allowing character transfers",
+
+			"permissions": {
+				"use_cta": true
+			}
+		},
+
+		"administrate": {
+			"description": "Find character transfer reports",
+			"dangerLevel": 2,
+
+			"permissions": {
+				"viewAdmin": true
+			}
+		}
+	},
+	
+	"enabled": true
+}

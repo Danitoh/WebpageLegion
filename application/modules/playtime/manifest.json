@@ -1,0 +1,24 @@
+{
+	"name": "Convert Play Time to Player Ponits",
+	"description": "Conversion Time Spent Online Player to Points",
+	"author": {
+		"name": "Shayan_077",
+		"website": "http://www.yekta-core.ir"
+	},
+	
+	"permissions": {
+		"view": {"default" : true, "description": "View Time to Points conversion page " }
+	},
+
+	"roles": {
+		"view": {
+			"description": "Show Time to Points conversion module",
+			
+			"permissions": {
+				"view": true
+			}
+		}
+	},
+
+	"enabled": true
+}
