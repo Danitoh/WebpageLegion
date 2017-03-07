@@ -29,6 +29,7 @@ class stormcore_rbac_soap implements Emulator
 	protected $expansions = array(
 		6 => "Legion",
 		5 => "Wod",
+		4 => "MoP",
 		3 => "Cataclysm",
 		2 => "WotLK",
 		1 => "TBC",
