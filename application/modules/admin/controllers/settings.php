@@ -92,21 +92,25 @@ class Settings extends MX_Controller
 			case "wod":
 				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("Legion"));
 			break;
+
+			case "mop":
+				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("WoD"), $this->realms->getEmulator()->getExpansionId("Legion"));
+			break;
 			
 			case "cataclysm":
-				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
+				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("MoP"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
 			break;
 			
 			case "wotlk":
-				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
+				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("MoP"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
 			break;
 
 			case "tbc":
-				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("WotLK"), $this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
+				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("WotLK"), $this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("MoP"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
 			break;
 
 			case "none":
-				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("TBC"), $this->realms->getEmulator()->getExpansionId("WotLK"), $this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
+				$disabled_expansions = array($this->realms->getEmulator()->getExpansionId("TBC"), $this->realms->getEmulator()->getExpansionId("WotLK"), $this->realms->getEmulator()->getExpansionId("Cataclysm"), $this->realms->getEmulator()->getExpansionId("MoP"), $this->realms->getEmulator()->getExpansionId("Wod"), $this->realms->getEmulator()->getExpansionId("Legion"));
 			break;
 
 			default:
