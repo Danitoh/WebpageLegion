@@ -1,1 +1,1 @@
-NeithLegion CMS is a remake & customized FusionCMS made for new expansions like WoD and Legion
+NeithLegion CMS is a remake & customized FusionCMS made for new expansions like WoD and Legion. Is in Alpha stage .. so dont use it in production. Registration on Legion expansion need to be reworked !!!
